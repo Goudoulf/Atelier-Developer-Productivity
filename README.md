@@ -57,14 +57,20 @@
 
 #### Neovim
 
+##### Vim Motions
+
 [Vim Cheat Sheet](https://vim.rtorr.com/)
 [Good site to learn](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/moving-blazingly-fast-with-the-core-vim-motions/)
 
 ### Addon
 
+#### 
+
 ### Les Snippet
 
 #### Vscode (snippet)
+
+[Vscode Doc Snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 
 #### Clion (live template)
 
@@ -73,6 +79,8 @@
 ## Linux
 
 ### Terminal
+
+Alacritty Kitty ...
 
 ### Shell
 
@@ -83,8 +91,14 @@ diverse config / addons
 ### Fuzzy Finder
 
 #### Install
-#### To Infinity and beyond (with script)
 
+DL github + launch install
+
+    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+    ~/.fzf/install
+
+#### To Infinity and beyond (with script)
+[fzf github](https://github.com/junegunn/fzf)
 ### cheat_sheet
 
 #### How to use it
