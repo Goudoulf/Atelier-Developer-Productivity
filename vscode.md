@@ -61,6 +61,7 @@ Ci-dessous une liste trie de raccourci utile :
         Alt + O = Switch entre le .h et le fichier c / cpp
 
 Chaqun de ses raccourcis peuvent etre modifie dans vscode pour etre plus personnel.
+Il en existe pleins d'autre prennez le temps de les regarder.
 
 Pour aller plus loin voir la [Doc Vscode](https://code.visualstudio.com/docs/getstarted/keybindings) 
 
@@ -76,12 +77,13 @@ Les extensions sont le plus gros points fort de VScode, certaine sont obligatoir
 
 ## Les Snippet
 
-[Video intro snippets](https://www.youtube.com/watch?v=TGh2NpCIDlc)
-[Vscode Doc Snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+- [Video](https://www.youtube.com/watch?v=TGh2NpCIDlc) courte pour comprendreles snippets
+- La [Doc](https://code.visualstudio.com/docs/editor/userdefinedsnippets) VScode
 
 ## Les tasks
 
-[Doc tasks](https://code.visualstudio.com/docs/editor/tasks)
+- La [Doc](https://code.visualstudio.com/docs/editor/tasks) VScode
+- Pour allr plus loin [Medium](https://medium.com/@simonescigliuzzi/automating-multi-projects-execution-using-vscodes-tasks-10e102da5d96)
 
 ## Bonus
 
