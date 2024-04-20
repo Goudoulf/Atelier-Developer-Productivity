@@ -73,18 +73,27 @@ Les extensions sont le plus gros points fort de VScode, certaine sont obligatoir
 - [gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [githistory](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
-- [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) + [DOC](https://code.visualstudio.com/docs/remote/ssh)
+- [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) + [Doc](https://code.visualstudio.com/docs/remote/ssh)
+- [Dev Container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) + [Doc](https://code.visualstudio.com/docs/devcontainers/containers)
+- [Github Copilot](https://github.com/features/copilot) ( [What not to do](https://www.youtube.com/watch?v=2q0BoioYSxQ))
+- [VSCode Neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
 
 ## Les Snippet
 
-- [Video](https://www.youtube.com/watch?v=TGh2NpCIDlc) courte pour comprendreles snippets
+C / C++ IntelliSense par exemple integre une bibilotheque de snippets que peut etre vous utiliser deja.
+Il existe aussi des extensions dedie, que vous pouvez chercher avec *@snippets* dans le market VScode.
+Enfin il est possible d'en faire des personalises.
+
+- [Video](https://www.youtube.com/watch?v=TGh2NpCIDlc) courte pour comprendre les snippets custom
 - [Doc VScode](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 
 ## Les tasks
 
+Outils tres puissant qui permet l'automatisation de taches, commande au sain de VScode.
+
 - [Doc VScode](https://code.visualstudio.com/docs/editor/tasks)
-- Pour allr plus loin [Medium](https://medium.com/@simonescigliuzzi/automating-multi-projects-execution-using-vscodes-tasks-10e102da5d96)
+- Pour aller plus loin un [article](https://medium.com/@simonescigliuzzi/automating-multi-projects-execution-using-vscodes-tasks-10e102da5d96)
 
 ## Bonus
 
-[Livre](https://annas-archive.org/md5/8992f49c8c518bda4e8cc46bfc445e08)
+>Livre Make VScode Awesome [Ici](https://annas-archive.org/md5/8992f49c8c518bda4e8cc46bfc445e08)
