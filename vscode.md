@@ -78,11 +78,11 @@ Les extensions sont le plus gros points fort de VScode, certaine sont obligatoir
 ## Les Snippet
 
 - [Video](https://www.youtube.com/watch?v=TGh2NpCIDlc) courte pour comprendreles snippets
-- La [Doc](https://code.visualstudio.com/docs/editor/userdefinedsnippets) VScode
+- [Doc VScode](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 
 ## Les tasks
 
-- La [Doc](https://code.visualstudio.com/docs/editor/tasks) VScode
+- [Doc VScode](https://code.visualstudio.com/docs/editor/tasks)
 - Pour allr plus loin [Medium](https://medium.com/@simonescigliuzzi/automating-multi-projects-execution-using-vscodes-tasks-10e102da5d96)
 
 ## Bonus
