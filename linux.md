@@ -38,7 +38,8 @@ Exemples de Script :
 
 Permet de chercher un de mes projets et de l'ouvrir dans neovim
 
-`vd() {
+```
+vd() {
   local dir
 
   dir=(${(f)"$(find ~/Documents -type d | fzf)"})
@@ -49,7 +50,8 @@ Permet de chercher un de mes projets et de l'ouvrir dans neovim
      vim .
      print -l $dir[1]
   fi
-}`
+}
+```
 
 [fzf github](https://github.com/junegunn/fzf)
 
