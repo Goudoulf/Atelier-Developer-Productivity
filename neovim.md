@@ -16,7 +16,7 @@ Sinon voici quelques liens pour vous aider :
 - [Vim be good](https://github.com/ThePrimeagen/vim-be-good) 
 
 Il n'est pas nécessaire de connaître tous les vim Motion, ajoutez-en au fur et
-à mesure a votre arsenal pour qu'elles deviennent seconde nature.
+à mesure à votre arsenal pour qu'elles deviennent seconde nature.
 
 Une petite liste de certains que je trouve super :
 
@@ -29,7 +29,7 @@ Une petite liste de certains que je trouve super :
     Ctrl + d : Descend dans le fichier par demi page
     Ctrl + u : Monte dans le fichier par demi page
 
-Plus tous les raccourcis ajouter par des plugins et des customs.
+Plus tous les raccourcis ajoutés par des plugins et des customs.
 
 ## Addon
 
@@ -42,7 +42,7 @@ Plus tous les raccourcis ajouter par des plugins et des customs.
 - Pour installer un LSP : [mason.nvim](https://github.com/williamboman/mason.nvim)
 - Un super plugin git : [fugitive.nvim](https://github.com/tpope/vim-fugitive?tab=readme-ov-file)
 
-- Git qui répertorie pleins de plugin : [awesome nvim](https://github.com/rockerBOO/awesome-neovim)
+- Git qui répertorie plein de plugin : [awesome nvim](https://github.com/rockerBOO/awesome-neovim)
 
 - Pour le [fun](https://github.com/Eandrju/cellular-automaton.nvim)
 
@@ -56,6 +56,6 @@ Plugin qui permet l'utilisation de snippet :
 
 Si vous voulez switch sur nvim je vous conseille [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 super pour apprendre à configurer Neovim.
-Lizez bien le git et tous le init.lua.
+Lisez bien le git et tout le init.lua.
 
 Plus une [video](https://www.youtube.com/watch?v=m8C0Cq9Uv9o)
