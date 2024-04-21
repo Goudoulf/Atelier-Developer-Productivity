@@ -1,6 +1,6 @@
 <h1 align="center">Atelier Developer Productivity</h1>
 
-## Preambule
+## Préambule
 
 Cet atelier a été conçu pour vous aider à optimiser votre flux de travail et
 à atteindre des niveaux de performance plus élevés dans votre pratique du développement.
@@ -23,7 +23,7 @@ et votre plaisir quand vous developpez.
 ### Vscode
 
 Avec sa polyvalence, sa communauté active et ses extensions riches, VSCode est
-l'IDE le plus utilise dans le monde.
+l'IDE le plus utilisé dans le monde.
 Dans cette section, nous examinerons les raccourcis clavier les plus utiles,
 les extensions essentielles pour différents langages de programmation et 
 les snippets pour accélérer le processus de codage.
