@@ -67,7 +67,7 @@ Pour aller plus loin voir la [Doc Vscode](https://code.visualstudio.com/docs/get
 
 ## Les Extensions
 
-Les extensions sont le plus gros points fort de VScode, certaines sont obligatoire, d'autres vraiment utiles, en voici une liste :
+Les extensions sont le plus gros points fort de VScode, certaines sont obligatoires, d'autres vraiment utiles, en voici une liste :
 
 - Avoir l'extension du language que vous codez est nécessaire ( ex : C/C++ Intelicense, )
 - [gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
@@ -89,7 +89,7 @@ Enfin il est possible d'en faire des personnalisées.
 
 ## Les tasks
 
-Outils très puissant qui permet l'automatisation de tâches, commandes au sain de VScode.
+Outils très puissant qui permet l'automatisation de tâches, commandes au sein de VScode.
 
 - [Doc VScode](https://code.visualstudio.com/docs/editor/tasks)
 - Pour aller plus loin un [article](https://medium.com/@simonescigliuzzi/automating-multi-projects-execution-using-vscodes-tasks-10e102da5d96)
