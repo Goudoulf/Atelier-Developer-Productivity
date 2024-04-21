@@ -2,13 +2,13 @@
 
 ## Les Raccourcis
 
-En maîtrisant les  raccourcis, les développeurs peuvent significativement
+En maîtrisant les raccourcis, les développeurs peuvent significativement
 accélérer leur processus de développement, augmentant ainsi leur productivité.
 
-Il n'est pas necessaire de connaitre tous les raccourcis, mais en apprendre certain
+Il n'est pas nécessaire de connaître tous les raccourcis, mais en apprendre certains
 est important.
 
-Ci-dessous une liste trie de raccourci utile :
+Ci-dessous une liste triée de raccourcis utiles :
 
     Configuer et voir raccourci dispo :
         Ctrl + K + S : Raccourci Vscode
@@ -20,7 +20,7 @@ Ci-dessous une liste trie de raccourci utile :
         # pour chercher dans le code
 
     Édition :
-        Ctrl + D : Ajoute a la selection la prochaine iteration de la selection
+        Ctrl + D : Ajoute à la sélection la prochaine itération de la sélection
         Ctrl + Z : Annuler
         Ctrl + Shift + Z : Rétablir
         Ctrl + X : Couper la sélection
@@ -28,26 +28,26 @@ Ci-dessous une liste trie de raccourci utile :
         Ctrl + V : Coller
         Ctrl + Shift + K : Supprimer la ligne
         Ctrl + ] ou [ : indentation droite gauche
-        Ctrl + L : Selectione la ligne
+        Ctrl + L : Sélectionne la ligne
         Ctrl + Entree : Insérer une ligne en dessous
-        Shift + Puis-Flèche gauche/droite : selection
+        Shift + Puis-Flèche gauche/droite : sélection
         Shift + Alt + Puis-Flèche haut/bas : Multi-Curseur 
-        Shift + Alt + Puis-Flèche gauche/droite : selection par block
+        Shift + Alt + Puis-Flèche gauche/droite : sélection par block
         Alt + Puis-Flèche haut/bas : Déplacer la ligne vers le haut/bas
 
     Navigation :
         Ctrl + G : Aller à la ligne
         Ctrl + \ : Diviser l'éditeur
-        Ctrl + W : Fermer editeur
-        Ctrl + pageup pagedown : Pour basculer entre les editeurs et les tabs
-        Ctrl + Alt + - : Va postition du curseur precedentes
-        Ctrl + Shift + - : Va postition du curseur precedentes
+        Ctrl + W : Fermer éditeur
+        Ctrl + pageup pagedown : Pour basculer entre les éditeurs et les tabs
+        Ctrl + Alt + - : Va à la position du curseur précedente
+        Ctrl + Shift + - : Va à la position du curseur précedente
 
     Recherche :
         Ctrl + F : Rechercher dans le fichier actif
-        Ctrl + H : Remplacer dans le fichier actif : Entree pour remplacer 1 par 1 : Ctrl + Alt + Entree pour tous remplacer
+        Ctrl + H : Remplacer dans le fichier actif : Entrée pour remplacer 1 par 1 : Ctrl + Alt + Entrée pour tout remplacer
         Ctrl + Shift + F : Rechercher dans tous les fichiers
-        Ctrl + Shift + H : Remplacer dans tous les fichiers : Entree pour remplacer 1 par 1 : Ctrl + Alt + Entree pour tous remplacer
+        Ctrl + Shift + H : Remplacer dans tous les fichiers : Entrée pour remplacer 1 par 1 : Ctrl + Alt + Entrée pour tous remplacer
 
     Navigation dans le code :
         Ctrl + Puis-Flèche gauche/droite : Déplacer le curseur par mot
@@ -60,16 +60,16 @@ Ci-dessous une liste trie de raccourci utile :
     C/C++ IntelliSense
         Alt + O = Switch entre le .h et le fichier c / cpp
 
-Chaqun de ses raccourcis peuvent etre modifie dans vscode pour etre plus personnel.
-Il en existe pleins d'autre prennez le temps de les regarder.
+Chacun de ces raccourcis peuvent être modifiés dans vscode pour être plus personnel.
+Il en existe plein d'autres, prennez le temps de les regarder.
 
 Pour aller plus loin voir la [Doc Vscode](https://code.visualstudio.com/docs/getstarted/keybindings) 
 
 ## Les Extensions
 
-Les extensions sont le plus gros points fort de VScode, certaine sont obligatoire d'autre vraiment utile en voici une liste :
+Les extensions sont le plus gros points fort de VScode, certaines sont obligatoire, d'autres vraiment utiles, en voici une liste :
 
-- Avoir l'extension du language que vous code est necessaire ( ex : C/C++ Intelicense, )
+- Avoir l'extension du language que vous codez est nécessaire ( ex : C/C++ Intelicense, )
 - [gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [githistory](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
@@ -78,18 +78,18 @@ Les extensions sont le plus gros points fort de VScode, certaine sont obligatoir
 - [Github Copilot](https://github.com/features/copilot) ( [What not to do](https://www.youtube.com/watch?v=2q0BoioYSxQ))
 - [VSCode Neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
 
-## Les Snippet
+## Les Snippets
 
-C / C++ IntelliSense par exemple integre une bibilotheque de snippets que peut etre vous utiliser deja.
-Il existe aussi des extensions dedie, que vous pouvez chercher avec *@snippets* dans le market VScode.
-Enfin il est possible d'en faire des personalises.
+C / C++ IntelliSense par exemple intègre une bibilothèque de snippets que peut-être vous utilisez déjà.
+Il existe aussi des extensions dediées, que vous pouvez chercher avec *@snippets* dans le market VScode.
+Enfin il est possible d'en faire des personnalisées.
 
 - [Video](https://www.youtube.com/watch?v=TGh2NpCIDlc) courte pour comprendre les snippets custom
 - [Doc VScode](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 
 ## Les tasks
 
-Outils tres puissant qui permet l'automatisation de taches, commande au sain de VScode.
+Outils très puissant qui permet l'automatisation de tâches, commandes au sain de VScode.
 
 - [Doc VScode](https://code.visualstudio.com/docs/editor/tasks)
 - Pour aller plus loin un [article](https://medium.com/@simonescigliuzzi/automating-multi-projects-execution-using-vscodes-tasks-10e102da5d96)
