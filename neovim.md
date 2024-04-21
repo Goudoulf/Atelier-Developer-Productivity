@@ -38,11 +38,13 @@ Plus tous les raccourcis ajouter par des plugins et des customs.
 - Pour aider a apprendre les raccourcis, tiptop : [Which Key.nvim](https://github.com/folke/which-key.nvim)
 - Plugin de commentaire : [comment.nvim](https://github.com/numToStr/Comment.nvim)
 - Aide a utilise nvim de la bonne maniere : [hardtime.nvim](https://github.com/m4xshen/hardtime.nvim)
+- [Vim Suround](https://github.com/tpope/vim-surround)
 - Pour installer un LSP : [mason.nvim](https://github.com/williamboman/mason.nvim)
 - Un super plugin git : [fugitive.nvim](https://github.com/tpope/vim-fugitive?tab=readme-ov-file)
 
 - Git qui repertorie pleins de plugin : [awesome nvim](https://github.com/rockerBOO/awesome-neovim)
 
+- Pour le [fun](https://github.com/Eandrju/cellular-automaton.nvim)
 
 ## luasnip
 
@@ -55,3 +57,5 @@ Plugin qui permet l'utilisation de snippet :
 Si vous voulez switch sur nvim je vous conseil [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 super pour apprendre a configurer Neovim.
 Lizez bien le git et tous le init.lua.
+
+Plus une [video](https://www.youtube.com/watch?v=m8C0Cq9Uv9o)
