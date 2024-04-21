@@ -78,6 +78,8 @@ Les extensions sont le plus gros points fort de VScode, certaines sont obligatoi
 - [Github Copilot](https://github.com/features/copilot) ( [What not to do](https://www.youtube.com/watch?v=2q0BoioYSxQ))
 - [VSCode Neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
 
+- Pour le fun [ici](https://marketplace.visualstudio.com/items?itemName=Tzanou.tamagotchi)
+
 ## Les Snippets
 
 C / C++ IntelliSense par exemple intègre une bibilothèque de snippets que peut-être vous utilisez déjà.
