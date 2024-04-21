@@ -20,28 +20,16 @@ de nouveaux moyens d'optimiser votre IDE de prédilection, cette section vous fo
 des conseils, des astuces et des outils pratiques pour maximiser votre productivité 
 et votre plaisir quand vous developpez.
 
-### Vscode
+### [VScode](vscode.md) 
 
-Avec sa polyvalence, sa communauté active et ses extensions riches, VSCode est
-l'IDE le plus utilisé dans le monde.
-Dans cette section, nous examinerons les raccourcis clavier les plus utiles,
-les extensions essentielles pour différents langages de programmation et 
-les snippets pour accélérer le processus de codage.
-De plus, nous découvrirons des astuces pour personnaliser votre expérience VSCode et
-en faire un allié indispensable dans votre travail quotidien.
+### [Clion](clion.md)
 
-[VSCODE](vscode.md) 
+### [Neovim](neovim.md)
 
-### Clion
-
-[CLION](clion.md)
-
-### Neovim
-
-[NEOVIM](neovim.md)
-
-## Linux
-
-[LINUX](linux.md)
+## [Linux](linux.md)
 
 Sources
+
+Cet event vient d'[ici](https://frontendmasters.com/courses/developer-productivity/)
+
+Merci lrio et ccharton pour l'aide sur Clion et gurival- pour VScode.
