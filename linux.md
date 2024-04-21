@@ -53,12 +53,15 @@ Permet de chercher un de mes projets et de l'ouvrir dans neovim
 
 [fzf github](https://github.com/junegunn/fzf)
 
-### cheat_sheet
+### cheat.sh
 
-[repo](https://github.com/chubin/cheat.sh?tab=readme-ov-file#installation)
+- [Git cheat.sh](https://github.com/chubin/cheat.sh?tab=readme-ov-file#installation)
 
 #### How to use it
-#### Unlimited Powa (with script)
+
+commande simple comme exemple, mais voir git pour aller plus loin.
+
+        curl cheat.sh/"language"/"truc que tu cherche"
 
 ### Commande utile
 
