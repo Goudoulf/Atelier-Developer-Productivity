@@ -2,7 +2,7 @@
 
 ## Les Raccourcis
 
-En maîtrisant les raccourcis, les développeurs peuvent significativement
+En maîtrisant les  raccourcis, les développeurs peuvent significativement
 accélérer leur processus de développement, augmentant ainsi leur productivité.
 
 Il n'est pas necessaire de connaitre tous les raccourcis, mais en apprendre certain
