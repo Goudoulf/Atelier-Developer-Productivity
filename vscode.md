@@ -42,6 +42,8 @@ Ci-dessous une liste triée de raccourcis utiles :
         Ctrl + pageup pagedown : Pour basculer entre les éditeurs et les tabs
         Ctrl + Alt + - : Va à la position du curseur précedente
         Ctrl + Shift + - : Va à la position du curseur précedente
+        Ctrl + tab : Naviguer entre les derniers onglets
+        Ctrl + "0 - 9" : Changer de fenetre vscode
 
     Recherche :
         Ctrl + F : Rechercher dans le fichier actif
