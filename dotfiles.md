@@ -9,11 +9,11 @@ de dofiles, mais pour comprendre au mieux leur fonctionnement nous le feront a l
 
 - 1. On cree un dossier dotfiles.
 
-``
+``` 
 //example on cree un dossier dotfiles dans notre $HOME
 mkdir ~/dotfiles
 cd ~/dotfiles
-``
+```
 
 - 2. Lister les conf que vous souhaitez ajouter dans votre dotfile.
 Pour cela je vous invite a check en fonctions des outils que vous utilise, pour recuperer leur conf. ex [vscode](https://anhari.dev/blog/saving-vscode-settings-in-your-dotfiles)
