@@ -10,7 +10,7 @@ de dofiles, mais pour comprendre au mieux leur fonctionnement nous le feront a l
 1. On cree un dossier dotfiles.
 
 ``` 
-//example on cree un dossier dotfiles dans notre $HOME
+// Example on cree un dossier dotfiles dans notre $HOME
 mkdir ~/dotfiles
 cd ~/dotfiles
 ```
@@ -20,38 +20,47 @@ Pour cela je vous invite a check en fonctions des outils que vous utilise, pour 
 
 3. Dans votre dossier dotfiles, organiser l'architecture comme vous le souhaitez.
 
-    Par exemple pour moi :
+```
+Par exemple pour moi :
     ~/dotfiles/
-            /vscode/
-            /nvim/
-            /alacritty/
-            /zsh/
-            /scripts/
+        /vscode/
+        /nvim/
+        /alacritty/
+        /zsh/
+        /scripts/
+```
 
 4. Copier vos differentes conf dans les dossier respectifs, puis supprimer l'ancien.
 
-    Ex : 
+```
+ Exemple pour VScode : 
     cp ~/.config/Code/User/settings.json ~/dotfiles/vscode/
     cp ~/.config/Code/User/keybindings.json ~/dotfiles/vscode/
     cp ~/.config/Code/User/snippets/c.json ~/dotfiles/vscode/
     rm ~/.config/Code/User/settings.json
     rm ~/.config/Code/User/keybindings.json
     rm ~/.config/Code/User/snippets/c.json
+```
 
 5. On creer ensuite un lien symbolique vers le fichier dans notre dossier dotfiles
 
-    ln -s ~/dotfiles/vscode/settings.json ~/.config/Code/User/settings.json
-    ln -s ~/dotfiles/vscode/keybindings.json ~/.config/Code/User/keybindings.json
-    ln -s ~/dotfiles/vscode/c.jsoni ~/.config/Code/User/snippets/c.json
+```
+ln -s ~/dotfiles/vscode/settings.json ~/.config/Code/User/settings.json
+ln -s ~/dotfiles/vscode/keybindings.json ~/.config/Code/User/keybindings.json
+ln -s ~/dotfiles/vscode/c.jsoni ~/.config/Code/User/snippets/c.json
+```
 
 6. On peut ensuite init notre repo git et finaliser sa creation.
 
-    cd ~/dotfiles/
-    git init
-    git commit -m "first commit / add dotfiles"
-    git branch -M main
-    git remote add origin "your repo address"
-    git push
+```
+cd ~/dotfiles/
+git init
+git add .
+git commit -m "first commit / add dotfiles"
+git branch -M main
+git remote add origin "your repo address"
+git push
+```
 
 Vous avez mainteant un dotfiles, avec vos configurations dessus. Si vous faite un changement dans votre conf, il vous suffit
 de git add , git commit , et push et les changement se feront. C'est possible d'automatiser cette tache avec diverse outils.
