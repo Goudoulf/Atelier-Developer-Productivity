@@ -16,7 +16,9 @@ cd ~/dotfiles
 ```
 
 2. Lister les conf que vous souhaitez ajouter dans votre dotfile.
-Pour cela je vous invite a check en fonctions des outils que vous utilise, pour recuperer leur conf. ex [vscode](https://anhari.dev/blog/saving-vscode-settings-in-your-dotfiles)
+Pour cela je vous invite a check en fonctions des outils que vous utilise, pour recuperer leur conf.
+Pour vscode : il vous faut le "settings.json", le "keybindings" et tous les ".json" dans le dossier snippets.
+
 
 3. Dans votre dossier dotfiles, organiser l'architecture comme vous le souhaitez.
 
@@ -45,6 +47,7 @@ Par exemple pour moi :
 5. On creer ensuite un lien symbolique vers le fichier dans notre dossier dotfiles
 
 ```
+//          "ORIGIN"                            "lien symbolique"
 ln -s ~/dotfiles/vscode/settings.json ~/.config/Code/User/settings.json
 ln -s ~/dotfiles/vscode/keybindings.json ~/.config/Code/User/keybindings.json
 ln -s ~/dotfiles/vscode/c.jsoni ~/.config/Code/User/snippets/c.json
@@ -62,7 +65,16 @@ git remote add origin "your repo address"
 git push
 ```
 
-Vous avez mainteant un dotfiles, avec vos configurations dessus. Si vous faite un changement dans votre conf, il vous suffit
-de git add , git commit , et push et les changement se feront. C'est possible d'automatiser cette tache avec diverse outils.
+7. (Optionnel) Vous pouvez faire un script pour automatiser git quand vous faites des mise a jour.
+
+Vous avez mainteant un dotfiles, avec vos configurations dessus. Si vous faite un changement dans votre conf, il vous suffit de git add , git commit , et push et les changement se feront.
+C'est possible d'automatiser cette tache avec diverse outils.
 Par exemple [rcm](https://github.com/thoughtbot/rcm) qui s'occupe meme de la creation de lien symbolique.
 Nous verront aussi une autre mainiere avec ansible au prochain atelier.
+
+Pour vscode je vous conseil cet qui explique aussi comment recuperer la liste des extensions :
+[article](https://anhari.dev/blog/saving-vscode-settings-in-your-dotfiles)
+
+Pour aller plus loin [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
+
+Tout ici est un exemple a vous d'adapter en fonction de vos besoin et de votre environnement.
