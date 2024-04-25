@@ -7,7 +7,7 @@ La gestion des dotfiles peut être simplifiée en utilisant des outils spécifiq
 L'objectif de l'atelier d'aujourd'hui est de creer le votre, pour les etapes suivante ils existent des outils pour la maintenance
 de dofiles, mais pour comprendre au mieux leur fonctionnement nous le feront a la main :
 
-- 1. On cree un dossier dotfiles.
+1. On cree un dossier dotfiles.
 
 ``` 
 //example on cree un dossier dotfiles dans notre $HOME
@@ -15,10 +15,10 @@ mkdir ~/dotfiles
 cd ~/dotfiles
 ```
 
-- 2. Lister les conf que vous souhaitez ajouter dans votre dotfile.
+2. Lister les conf que vous souhaitez ajouter dans votre dotfile.
 Pour cela je vous invite a check en fonctions des outils que vous utilise, pour recuperer leur conf. ex [vscode](https://anhari.dev/blog/saving-vscode-settings-in-your-dotfiles)
 
-- 3. Dans votre dossier dotfiles, organiser l'architecture comme vous le souhaitez.
+3. Dans votre dossier dotfiles, organiser l'architecture comme vous le souhaitez.
 
     Par exemple pour moi :
     ~/dotfiles/
@@ -28,7 +28,7 @@ Pour cela je vous invite a check en fonctions des outils que vous utilise, pour 
             /zsh/
             /scripts/
 
-- 4. Copier vos differentes conf dans les dossier respectifs, puis supprimer l'ancien.
+4. Copier vos differentes conf dans les dossier respectifs, puis supprimer l'ancien.
 
     Ex : 
     cp ~/.config/Code/User/settings.json ~/dotfiles/vscode/
@@ -38,13 +38,13 @@ Pour cela je vous invite a check en fonctions des outils que vous utilise, pour 
     rm ~/.config/Code/User/keybindings.json
     rm ~/.config/Code/User/snippets/c.json
 
-- 5. On creer ensuite un lien symbolique vers le fichier dans notre dossier dotfiles
+5. On creer ensuite un lien symbolique vers le fichier dans notre dossier dotfiles
 
     ln -s ~/dotfiles/vscode/settings.json ~/.config/Code/User/settings.json
     ln -s ~/dotfiles/vscode/keybindings.json ~/.config/Code/User/keybindings.json
     ln -s ~/dotfiles/vscode/c.jsoni ~/.config/Code/User/snippets/c.json
 
-- 6. On peut ensuite init notre repo git et finaliser sa creation.
+6. On peut ensuite init notre repo git et finaliser sa creation.
 
     cd ~/dotfiles/
     git init
