@@ -17,7 +17,7 @@ cd ~/dotfiles
 
 2. Lister les conf que vous souhaitez ajouter dans votre dotfile.
 Pour cela je vous invite à check en fonction des outils que vous utilisez, pour récuperer leur conf.
-Pour vscode : il vous faut le "settings.json", le "keybindings" et tous les ".json" dans le dossier snippets.
+Exemple pour vscode : il vous faut le "settings.json", le "keybindings" et tous les ".json" dans le dossier snippets.
 
 
 3. Dans votre dossier dotfiles, organiser l'architecture comme vous le souhaitez.
@@ -53,7 +53,19 @@ ln -s ~/dotfiles/vscode/keybindings.json ~/.config/Code/User/keybindings.json
 ln -s ~/dotfiles/vscode/c.jsoni ~/.config/Code/User/snippets/c.json
 ```
 
-6. On peut ensuite init notre repo git et finaliser sa création.
+6. Pour les extensions
+
+```bash
+# pour save votre liste d'extension
+code --list-extensions > ~/dotfiles/vscode/code_extensions
+```
+
+```bash
+# pour installer votre liste d'extension
+cat ~/dotfiles/vscode/code_extensions | xargs -L 1 code --install-extension
+```
+
+7. On peut ensuite init notre repo git et finaliser sa création.
 
 ```
 cd ~/dotfiles/
@@ -65,16 +77,56 @@ git remote add origin "your repo address"
 git push
 ```
 
-7. (Optionnel) Vous pouvez faire un script pour automatiser git quand vous faites des mises à jour.
+8. (Optionnel) Vous pouvez faire un script pour automatiser les commits/push git quand vous faites des mises à jour.
 
-Vous avez maintenant un dotfiles, avec vos configurations dessus. Si vous faites un changement dans votre conf, il vous suffit de git add, git commit, et push et les changements se feront.
+Vous avez maintenant un dotfiles, avec vos configurations dessus. Si vous faites un changement dans votre conf, il vous suffit de git add / commit / 
+push et les changements se feront sur vos differentes machines.
 C'est possible d'automatiser cette tâche avec divers outils.
 Par exemple [rcm](https://github.com/thoughtbot/rcm) qui s'occupe même de la création de lien symbolique.
+Ou avec un Makefile([exemple](https://github.com/denolfe/dotfiles/blob/master/Makefile))
 Nous verrons aussi une autre manière avec ansible au prochain atelier.
 
 Pour vscode je vous conseille cet article qui explique aussi comment récuperer la liste des extensions :
 [article](https://anhari.dev/blog/saving-vscode-settings-in-your-dotfiles)
 
 Pour aller plus loin [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
+dans ce repo vous trouver pleins d'outils pour gerer vos dotfiles, ainsi que pleins d'exemple de dotfiles.
 
 Tout ici est un exemple, à vous d'adapter en fonction de vos besoins et de votre environnement.
+
+<details>
+  <summary>Exemple de scripts</summary>
+```bash
+#!/bin/bash
+############################
+# .make.sh
+# This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
+############################
+
+########## Variables
+
+dir=~/dotfiles                    # dotfiles directory
+olddir=~/dotfiles_old             # old dotfiles backup directory
+files="bashrc vimrc vim zshrc oh-my-zsh"    # list of files/folders to symlink in homedir
+
+##########
+
+# create dotfiles_old in homedir
+echo "Creating $olddir for backup of any existing dotfiles in ~"
+mkdir -p $olddir
+echo "...done"
+
+# change to the dotfiles directory
+echo "Changing to the $dir directory"
+cd $dir
+echo "...done"
+
+# move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks 
+for file in $files; do
+    echo "Moving any existing dotfiles from ~ to $olddir"
+    mv ~/.$file ~/dotfiles_old/
+    echo "Creating symlink to $file in home directory."
+    ln -s $dir/$file ~/.$file
+done
+```
+</details>
