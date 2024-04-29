@@ -8,7 +8,8 @@ Dans le monde dynamique et exigeant du dev, la productivité est une clé essent
 Que ce soit pour améliorer votre efficacité individuelle, collaborer plus efficacement 
 au sein d'une équipe ou livrer des projets de haute qualité dans des délais serrés.
 
-## Les optimistations IDE
+<details>
+  <summary>## Les optimistations IDE</summary>
 
 Dans cette section, nous exploreront
 comment optimiser trois des IDE utilise à 42 : Visual Studio Code, CLion et NeoVim.
@@ -26,10 +27,19 @@ et votre plaisir quand vous developpez.
 
 ### [Neovim](neovim.md)
 
-## [Linux](linux.md)
+### [Linux](linux.md)
+
+</details>
+
+<details>
+  <summary>## Les dotfiles</summary>
+
+[Atelier lundi 29](dotfiles.md)
+
+</details>
 
 Sources
 
 Cet event vient d'[ici](https://frontendmasters.com/courses/developer-productivity/)
 
-Merci lrio et ccharton pour l'aide sur Clion et gurival- pour VScode.
+Merci lrio, ccharton et gd-harco pour l'aide sur Clion et gurival- pour VScode.

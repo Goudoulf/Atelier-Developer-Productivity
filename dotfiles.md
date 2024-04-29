@@ -3,7 +3,7 @@
 ## Prerequis
 
 Pour preparer l'atlelier de demain nous aurons besoin d'une machine virtuelle.
-Donc afin de gagner du temps if copier le dossier AtelierDP :
+Afin de gagner du temps il faut copier le dossier AtelierDP :
 
 ```bash
 cd /
