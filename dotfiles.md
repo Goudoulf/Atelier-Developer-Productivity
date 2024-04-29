@@ -9,8 +9,8 @@ de dofiles, mais pour comprendre au mieux leur fonctionnement nous le feront à 
 
 1. On crée un dossier dotfiles.
 
-``` 
-// Exemple on crée un dossier dotfiles dans notre $HOME
+```bash 
+## Exemple on crée un dossier dotfiles dans notre $HOME
 mkdir ~/dotfiles
 cd ~/dotfiles
 ```
@@ -22,8 +22,8 @@ Exemple pour vscode : il vous faut le "settings.json", le "keybindings" et tous 
 
 3. Dans votre dossier dotfiles, organiser l'architecture comme vous le souhaitez.
 
-```
-Par exemple pour moi :
+```bash
+# Par exemple pour moi :
     ~/dotfiles/
         /vscode/
         /nvim/
@@ -34,8 +34,8 @@ Par exemple pour moi :
 
 4. Copier vos différentes conf dans les dossiers respectifs, puis supprimer l'ancien.
 
-```
- Exemple pour VScode : 
+```bash
+# Exemple pour VScode : 
     cp ~/.config/Code/User/settings.json ~/dotfiles/vscode/
     cp ~/.config/Code/User/keybindings.json ~/dotfiles/vscode/
     cp ~/.config/Code/User/snippets/c.json ~/dotfiles/vscode/
@@ -46,8 +46,8 @@ Par exemple pour moi :
 
 5. On créer ensuite un lien symbolique vers le fichier dans notre dossier dotfiles
 
-```
-//          "ORIGIN"                            "lien symbolique"
+```bash
+##          "ORIGIN"                            "lien symbolique"
 ln -s ~/dotfiles/vscode/settings.json ~/.config/Code/User/settings.json
 ln -s ~/dotfiles/vscode/keybindings.json ~/.config/Code/User/keybindings.json
 ln -s ~/dotfiles/vscode/c.jsoni ~/.config/Code/User/snippets/c.json
@@ -67,7 +67,7 @@ cat ~/dotfiles/vscode/code_extensions | xargs -L 1 code --install-extension
 
 7. On peut ensuite init notre repo git et finaliser sa création.
 
-```
+```bash
 cd ~/dotfiles/
 git init
 git add .
@@ -98,36 +98,36 @@ Tout ici est un exemple, à vous d'adapter en fonction de vos besoins et de votr
   <summary>Exemple de scripts</summary>
 
 ```bash
-    #!/bin/bash
-    ############################
-    # .make.sh
-    # This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
-    ############################
+#!/bin/bash
+############################
+# .make.sh
+# This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
+############################
 
-    ########## Variables
+########## Variables
 
-    dir=~/dotfiles                    # dotfiles directory
-    olddir=~/dotfiles_old             # old dotfiles backup directory
-    files="bashrc vimrc vim zshrc oh-my-zsh"    # list of files/folders to symlink in homedir
+dir=~/dotfiles                    # dotfiles directory
+olddir=~/dotfiles_old             # old dotfiles backup directory
+files="bashrc vimrc vim zshrc oh-my-zsh"    # list of files/folders to symlink in homedir
 
-    ##########
+##########
 
-    # create dotfiles_old in homedir
-    echo "Creating $olddir for backup of any existing dotfiles in ~"
-    mkdir -p $olddir
-    echo "...done"
+# create dotfiles_old in homedir
+echo "Creating $olddir for backup of any existing dotfiles in ~"
+mkdir -p $olddir
+echo "...done"
 
-    # change to the dotfiles directory
-    echo "Changing to the $dir directory"
-    cd $dir
-    echo "...done"
+# change to the dotfiles directory
+echo "Changing to the $dir directory"
+cd $dir
+echo "...done"
 
-    # move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks 
-    for file in $files; do
-        echo "Moving any existing dotfiles from ~ to $olddir"
-        mv ~/.$file ~/dotfiles_old/
-        echo "Creating symlink to $file in home directory."
-        ln -s $dir/$file ~/.$file
-    done
+# move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks 
+for file in $files; do
+    echo "Moving any existing dotfiles from ~ to $olddir"
+    mv ~/.$file ~/dotfiles_old/
+    echo "Creating symlink to $file in home directory."
+    ln -s $dir/$file ~/.$file
+done
 ```
 </details>
