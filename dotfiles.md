@@ -97,7 +97,7 @@ Tout ici est un exemple, à vous d'adapter en fonction de vos besoins et de votr
 <details>
   <summary>Exemple de scripts</summary>
 
-    ```bash
+```bash
     #!/bin/bash
     ############################
     # .make.sh
@@ -129,5 +129,5 @@ Tout ici est un exemple, à vous d'adapter en fonction de vos besoins et de votr
         echo "Creating symlink to $file in home directory."
         ln -s $dir/$file ~/.$file
     done
-    ```
+```
 </details>
