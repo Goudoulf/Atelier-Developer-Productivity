@@ -1,5 +1,18 @@
 <h1 align="center">Dotfiles</h1>
 
+## Prerequis
+
+Pour preparer l'atlelier de demain nous aurons besoin d'une machine virtuelle.
+Donc afin de gagner du temps if copier le dossier AtelierDP :
+
+```bash
+cd /
+cd sgroinfre/cassie
+cp -R sgoinfre/cassie/AtelierDP ~/sgoinfre/
+```
+
+## Creer votre dotfiles
+
 Les dotfiles sont simplement des fichiers de configuration utilisés par divers programmes sur un système Unix-like, tels que Linux ou macOS. Leur nom commence généralement par un point (.) pour les rendre cachés par défaut dans les listings de fichiers.
 
 La gestion des dotfiles peut être simplifiée en utilisant des outils spécifiques, comme Git, pour les versionner et les synchroniser entre différentes machines. Cela permet aux utilisateurs de conserver une configuration cohérente de leur environnement de travail, même lorsqu'ils passent d'un système à un autre.
@@ -81,18 +94,25 @@ git push
 
 Vous avez maintenant un dotfiles, avec vos configurations dessus. Si vous faites un changement dans votre conf, il vous suffit de git add / commit / 
 push et les changements se feront sur vos differentes machines.
-C'est possible d'automatiser cette tâche avec divers outils.
-Par exemple [rcm](https://github.com/thoughtbot/rcm) qui s'occupe même de la création de lien symbolique.
-Ou avec un Makefile([exemple](https://github.com/denolfe/dotfiles/blob/master/Makefile))
-Nous verrons aussi une autre manière avec ansible au prochain atelier.
 
-Pour vscode je vous conseille cet article qui explique aussi comment récuperer la liste des extensions :
-[article](https://anhari.dev/blog/saving-vscode-settings-in-your-dotfiles)
+Il est possible d'automatiser cette tâche avec divers outils :
 
-Pour aller plus loin [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
-dans ce repo vous trouver pleins d'outils pour gerer vos dotfiles, ainsi que pleins d'exemple de dotfiles.
+- [rcm](https://github.com/thoughtbot/rcm) qui s'occupe même de la création de lien symbolique.
+- Avec un Makefile([exemple](https://github.com/denolfe/dotfiles/blob/master/Makefile))
+- Demain nous verrons avec ansible.
+
+Si vous utilisez Clion, il vaut mieux utiliser [Share IDE](https://www.jetbrains.com/help/clion/sharing-your-ide-settings.html#IDE_settings_sync).
 
 Tout ici est un exemple, à vous d'adapter en fonction de vos besoins et de votre environnement.
+
+## Petit plus
+
+Pour vscode une maniere pour automotiser la creation de dotfiles :
+[article](https://anhari.dev/blog/saving-vscode-settings-in-your-dotfiles)
+
+
+Je vous conseil grandement de faire un tour sur [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles).
+Dans ce repo vous trouver pleins d'outils et de tutoriels pour faire votre dotfiles, ainsi que pleins d'exemple de dotfiles.
 
 <details>
   <summary>Exemple de script</summary>
