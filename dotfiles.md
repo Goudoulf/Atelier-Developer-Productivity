@@ -95,7 +95,7 @@ dans ce repo vous trouver pleins d'outils pour gerer vos dotfiles, ainsi que ple
 Tout ici est un exemple, à vous d'adapter en fonction de vos besoins et de votre environnement.
 
 <details>
-  <summary>Exemple de scripts</summary>
+  <summary>Exemple de script</summary>
 
 ```bash
 #!/bin/bash
